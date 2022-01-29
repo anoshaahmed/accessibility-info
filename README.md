@@ -54,7 +54,7 @@ For example,
 ##
 __Unordered and Ordered List__
 
-`<ul>` or `<ol>` must contain `<li>`. In other words, the _direct children_ of undereded(`<ul>`) or ordered(`<ol>`) lists must be list items(`<li>`).
+`<ul>` or `<ol>` must contain `<li>`. In other words, the _direct children_ of unordered(`<ul>`) or ordered(`<ol>`) lists must be list items(`<li>`).
 
 For example, if images need to be put in a list, then the images must go inside of `<li>` tags.
 ```html
