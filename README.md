@@ -40,7 +40,7 @@ _Read more [here](https://www.w3.org/TR/wai-aria-practices/examples/landmarks/ma
 ##
 __Heading__
 
-- First level headings indicate what the webpage is about and it is a must that every page has one.
+- A First level heading indicates what the webpage is about and it is a must that every page has one (and only one).
 - Headings must start with `<h1>`, and move up by one level each time. This makes it easier for a screen reader to navigate a page.
 ##
 __Image__
@@ -89,7 +89,7 @@ For example,
 ##
 __Button__
 
-Like `<a>` tags, `<button>`s must also contain an `aria-label=" "`
+Like `<a>` tags, `<button>` tags must also contain an `aria-label=" "`
 
 ##
 __Link vs. Button__
