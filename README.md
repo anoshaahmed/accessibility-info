@@ -41,7 +41,7 @@ _Read more [here](https://www.w3.org/TR/wai-aria-practices/examples/landmarks/ma
 __Heading__
 
 - A first-level heading, (`<h1>`), indicates what the webpage is about and it is a must that every page has one (and only one).
-- Headings must start with `<h1>`, and move up by _one_ level each time. This makes it easier for a screen reader to navigate a page.
+- Headings must start with `<h1>`, and move up by _one_ level each time. This makes it easier for a screen reader to navigate the page.
 <!--
   For example,
   ```html
@@ -85,6 +85,7 @@ For example,
 ```html
 <img src="images/flower.jpg" alt="Pink flower">
 ```
+However, images with no semantic meaning—such as those which are solely _decorative_—or of limited informational value, should have their `alt` attributes set to the empty string ("").
 ##
 __Unordered and Ordered List__
 
@@ -119,7 +120,7 @@ IDs must only be used *once*. Use classes instead of IDs if they're required for
 ##
 __Link__
 
-`<a>` should have an `aria-label` _Read more [here](https://dequeuniversity.com/rules/axe/3.5/link-name)_
+`<a>` should have an `aria-label`. _Read more [here](https://dequeuniversity.com/rules/axe/3.5/link-name)_
 
 For example,
 ```html
@@ -144,13 +145,13 @@ For example,
 ##
 __Button__
 
-Like `<a>` tags, `<button>` tags must also contain an `aria-label=" "`
+Like `<a>` tags, `<button>` tags must also contain an `aria-label=" "`. _[Read more here](https://dequeuniversity.com/rules/axe/3.5/button-name)_
 
 ##
 __Link vs. Button__
 
 In simple words, use `<a>` if it needs to take the user to a different webpage; whereas, use a button if it needs to fulfill a small purpose on the same page, for example, a button to make the text green.
-_Read more [here](https://ux.iu.edu/writings/buttons-vs-links-basic/#:~:text=There%20are%20differences%20as%20to,affect%20the%20website%20at%20all.)
+_Read more [here](https://ux.iu.edu/writings/buttons-vs-links-basic/#:~:text=There%20are%20differences%20as%20to,affect%20the%20website%20at%20all.)_
 
 Don't use a `<button>` with an `<a>` inside of it. Instead, use `<a>` and style it like a button.
 
@@ -167,7 +168,7 @@ A `<section>` needs a heading; if you don't need a heading in it, use some other
 ##
 __Article__
 
-An `<article>` usually needs a heading; if you don't need a heading in it, use some other element such as `<div>`
+An `<article>` needs a heading; if you don't need a heading in it, use some other element such as `<div>`
 
 <hr>
 
