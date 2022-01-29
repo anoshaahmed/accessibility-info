@@ -52,7 +52,7 @@ For example,
 <img src="images/flower.jpg" alt="Pink flower">
 ```
 ##
-__UL and OL__
+__Unordered and Ordered List__
 
 `<ul>` or `<ol>` must contain `<li>`. If images need to be put in a list, the images must go inside of `<li>` tags.
 
