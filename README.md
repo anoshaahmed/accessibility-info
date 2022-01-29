@@ -104,6 +104,7 @@ An `<input>` must have a corresponding `<label>`
 
 ##
 __Section__
+
 A `<section>` needs a heading; if you don't need a heading in it, use some other element such as `<div>`
 
 ##
