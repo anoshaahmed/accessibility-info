@@ -18,7 +18,7 @@ __Title__
 ##
 __Semantic tags__
 
-The direct children of the body must be wrapped in semantic tags to indicate the users what purpose that part of the webpage is for.
+The direct children of the body must be wrapped in semantic tags to indicate the users of the purpose of different parts of the webpage.
 
 For example,
 ```html
@@ -26,9 +26,11 @@ For example,
   <header>
     ...header of the webpage...
   </header>
+  
   <main>
     ...main content of the webpage...
   </main>
+  
   <footer>
     ...footer of the webpage...
   </footer>
