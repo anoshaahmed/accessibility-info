@@ -12,7 +12,7 @@ __Title__
 
 ```html
 <head>
-<title>Some title</title>
+  <title>Some title</title>
 </head>
 ```
 ##
