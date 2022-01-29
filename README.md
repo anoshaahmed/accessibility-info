@@ -18,7 +18,7 @@ __Title__
 ##
 __Semantic tags__
 
-The direct children of the body must be wrapped in semantic tags to indicate the users about the purpose of the different parts of a webpage.
+The direct children of the body must be wrapped in semantic tags to indicate users about the various purposes of different parts of a webpage.
 
 For example,
 ```html
