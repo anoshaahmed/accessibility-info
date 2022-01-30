@@ -1,5 +1,5 @@
 # Accessibility Info // and other best practices
-_List of simple accessibility practices to know and other common mistakes to avoid while writing your code._
+_List of simple accessibility practices to know and other common mistakes to avoid while writing your code_
 <hr>
 
 __HTML Language__
