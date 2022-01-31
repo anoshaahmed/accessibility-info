@@ -2,6 +2,14 @@
 _List of simple accessibility practices to know and other common mistakes to avoid while writing your code_
 <hr>
 
+__Start tag__
+
+```html
+<!DOCTYPE html>
+```
+Always add the "`!DOCTYPE`"
+
+##
 __HTML Language__
 
 ```html
