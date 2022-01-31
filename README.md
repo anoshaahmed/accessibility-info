@@ -49,6 +49,7 @@ _Read more [here](https://www.w3.org/TR/wai-aria-practices/examples/landmarks/ma
 __Heading__
 
 - A first-level heading, (`<h1>`), indicates what the webpage is about and it is a must that every page has one (and only one).
+- If an image is being used as the `h1`, then the `alt` attribute of the `img` must _not_ be empty.
 - Headings must start with `<h1>`, and move up by _one_ level each time. This makes it easier for a screen reader to navigate the page.
 <!--
   For example,
